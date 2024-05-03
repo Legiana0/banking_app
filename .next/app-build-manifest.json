@@ -16,15 +16,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(auth)/sign-in/page": [
+    "/(root)/my-banks/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-in/page.js"
+      "static/chunks/app/(root)/my-banks/page.js"
     ],
-    "/(auth)/layout": [
+    "/(root)/transaction-history/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/layout.js"
+      "static/chunks/app/(root)/transaction-history/page.js"
+    ],
+    "/(root)/payment-transfer/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/payment-transfer/page.js"
     ]
   }
 }

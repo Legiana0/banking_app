@@ -2,22 +2,22 @@ export const sidebarLinks = [
   {
     imgURL: "/icons/home.svg",
     route: "/",
-    label: "Home",
+    label: "主頁",
   },
   {
     imgURL: "/icons/dollar-circle.svg",
     route: "/my-banks",
-    label: "My Banks",
+    label: "我的銀行",
   },
   {
     imgURL: "/icons/transaction.svg",
     route: "/transaction-history",
-    label: "Transaction History",
+    label: "交易紀錄",
   },
   {
     imgURL: "/icons/money-send.svg",
     route: "/payment-transfer",
-    label: "Transfer Funds",
+    label: "轉賬",
   },
 ];
 
